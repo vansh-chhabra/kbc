@@ -1,4 +1,4 @@
-![KBC](https://github.com/vansh-chhabra/KaunBanegaCrorepati/blob/master/banner.jpg)
+![KBC](https://github.com/vansh-chhabra/kbc/blob/master/banner.jpg)
 
 # Kaun Banega Crorepati
 
