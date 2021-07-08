@@ -1,0 +1,78 @@
+1. This application has been built in C language.
+2. It is an implementation of the popular Indian television gameshow Kaun Banega Crorepati.
+3. Please ensure that all the steps given in the README are followed for proper functioning of this application. 
+4. The input files are in the "questions" folder. There are 15 .txt files coresponding to 15 questions which will be asked in the game.  
+5. Each file contains the the following information in respective order : 
+	a) Question
+	b) Next 4 lines - the four options corresponding to each question
+	c) Experts' advice
+	d) The option (A/B/C/D) corresponding to the answer
+	e) The money value of each question divided by 1000
+6. When the output file is run, the player is welcomed into the game with a user-friendly menu enlisting 5 options
+7. If you press 1, the game starts. 
+   
+   ****	DETAILS REGARDING THE QUESTIONS IN THE GAME ****
+	a. Total number of questions = 15
+	b. Prize money associated with each question:
+
+	Question	     Money     	
+ 	   15.		Rs. 1,00,00,000
+	   14.		Rs. 50,00,000
+	   13.		Rs. 25,00,000
+	   12.		Rs. 12,50,000
+	   11.		Rs. 6,40,000
+	   10.		Rs. 3,20,000
+	    9.		Rs. 1,60,000
+	    8.		Rs. 80,000
+	    7.		Rs. 40,000
+	    6.		Rs. 20,000
+	    5.		Rs. 10,000
+	    4.		Rs. 5,000
+	    3.		Rs. 3,000
+	    2.		Rs. 2,000
+	    1.		Rs. 1,000
+
+8. The player has to press A/B/C/D to select an option. Both capital and small alphabets are acceptable.
+9. There are two checkpoints in this game which are as follows:
+		Checkpoint I  : Rs. 10,000
+        Checkpoint II : Rs. 3,20,000
+If you give a wrong answer, you will be awarded prize money corresponding to your latest checkpoint. If you haven't reached 1st checkpoint, then you'll be awarded no money. 
+10. There are 2 lifelines available to the player, 50/50 and Expert's Advice:
+	i) 50-50 : 2 random wrong options will disappear from the screen.		 	
+	(Enter '1' to use this lifeline)
+	ii) Expert Advice : It will display the views of our expert on the question. 
+	(Enter '2' to use this lifeline)
+11. These lifelines can be used only once in a game, even at the same time as well.
+12. The game makes liberal use of colors in C made possible with the help of ANSI escape code sequences. After using a lifeline once, it will turn from green to red indicating you cannot use it again. If you try using them again, you'll be greeted with a message informing they can't be used.
+13. If the player answers a question correctly, he/she will be congratulated with a prompt informing that the answer is correct and will be directed towards the next question. The money amount will automatically be incremented in his current balance which is displayed on screen at all times.
+14. If the player answers the question wrongly, he/she will be informed about the correct answer through a prompt and will be directed towards the game ending screen. The money he/she wins will be subject to details laid in points 5 and 7 above.
+15. If the player answers all the 15 questions correctly then he/she will be congratulated for becoming a crorepati.
+16. The player will always have an option to quit the game by pressing 'q'/'Q' in any question. If he/she chooses to quit, the player will take home whatever amount of money he/she has won till that point of time.
+17. If the player loses (i.e. chooses a wrong answer), quits or becomes a crorepati, he/she'll be directed back to main user menu.
+18. In the main menu, if you press '2', you will be able to see the instructions for playing the game
+19. In the main menu, if you press '3', you will be able to view the money associated with each question (as enlisted in point 5 above)
+20. In the main menu, if you press '4', you will be able to see the details of developers of this game.
+21. In the main menu, if you press '5', you will be able to exit the game.
+22. Entering any choice other than 1/2/3/4/5 will prompt you to enter a correct one
+23. Player can play the game as many times he/she wants. Everytime the money counter will start at zero.
+
+
+Additional Information:
+
+USING COLORS IN C
+
+To make the program more visually appealing and add to its aesthetics, we have used colors. It also makes our prompts more noticeable.
+
+CODE	COLOR
+[0;31m	Red
+[0;32m	Green
+[0;33m	Yellow
+[0;34m	Blue
+[0;35m	Magenta
+[0;36m	Cyan
+[0m		Reset colors
+
+Further reading: 
+Please visit the follwing sites - 
+1. http://web.theurbanpenguin.com/adding-color-to-your-output-from-c/
+2. https://ramprasadk.wordpress.com/2010/06/09/c-programming-linux-color-text-output/
