@@ -1,4 +1,4 @@
-![KBC](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/banner.jpg)
+![KBC](https://github.com/vansh-chhabra/KaunBanegaCrorepati/blob/master/banner.jpg)
 
 # Kaun Banega Crorepati
 
@@ -12,15 +12,15 @@ Course Project for CS F111: Computer Programming course at BITS Pilani
 
 ## Installation
 
-Fork this [repository](https://github.com/thedhruvrawat/KaunBanegaCrorepati.git) and then clone it by using the following command.
+Fork this [repository](https://github.com/vansh-chhabra/kbc.git) and then clone it by using the following command.
 
 ```bash
-git clone https://github.com/thedhruvrawat/KaunBanegaCrorepati.git
+git clone https://github.com/vansh-chhabra/kbc.git
 ```
 
 Navigate to the directory using 
 ```bash
-cd KaunBanegaCrorepati
+cd kbc
 ```
 
 Ensure that you have `gcc` pre-installed, to check the `gcc` version run the following command.
@@ -36,33 +36,33 @@ gcc kbc.c -o kbc.exe
 
 ## Documentation
 
-Click [here](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/DOCUMENTATION.txt) to see the documentation and working of this project.
+Click [here](https://github.com/vansh-chhabra/kbc/blob/master/DOCUMENTATION.txt) to see the documentation and working of this project.
 
 The basic workflow of lifelines has been explained in the *Infographic* below 
 
-![Infographic](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/infographic.jpg)
+![Infographic](https://github.com/vansh-chhabra/kbc/blob/master/infographic.jpg)
 
 ## Usage
 
 Here are some screenshots of the working of the application
 
-![Welcome Screen](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/screenshots/home.gif)
+![Welcome Screen](https://github.com/vansh-chhabra/kbc/blob/master/screenshots/home.gif)
 
-![Correct Answer](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/screenshots/correct.gif)
+![Correct Answer](https://github.com/vansh-chhabra/kbc/blob/master/screenshots/correct.gif)
 
-![50/50](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/screenshots/5050.gif)
+![50/50](https://github.com/vansh-chhabra/kbc/blob/master/screenshots/5050.gif)
 
-![Wrong Answer](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/screenshots/wrongans.gif)
+![Wrong Answer](https://github.com/vansh-chhabra/kbc/blob/master/screenshots/wrongans.gif)
 
-![Two Lifelines](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/screenshots/twolife.gif)
+![Two Lifelines](https://github.com/vansh-chhabra/kbc/blob/master/screenshots/twolife.gif)
 
-You can view other screenshots of the working of the application in the [screenshots folder](https://github.com/thedhruvrawat/KaunBanegaCrorepati/blob/master/screenshots).
+You can view other screenshots of the working of the application in the [screenshots folder](https://github.com/vansh-chhabra/kbc/blob/master/screenshots).
 
 ## Contributers
 
+- Vansh Chhabra
 - Dhruv Rawat
 - Shubham Sharma
-- Vansh Chhabra
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
