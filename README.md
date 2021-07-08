@@ -58,7 +58,7 @@ Here are some screenshots of the working of the application
 
 You can view other screenshots of the working of the application in the [screenshots folder](https://github.com/vansh-chhabra/kbc/blob/master/screenshots).
 
-## Contributers
+## Contributors
 
 - Vansh Chhabra
 - Dhruv Rawat
