@@ -1,0 +1,8 @@
+Which of these fruits has the most number of seeds?
+A. Pomegranate
+B. Date
+C. Litchi
+D. Apple
+Expert: It's definitely pomegranate! It has more than 500 seeds.
+A
+1
